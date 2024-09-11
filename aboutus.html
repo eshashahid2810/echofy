@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type=“text/css” href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+         .projects-section {
+    background-color: #f9f9f9; 
+    padding: 50px 0;
+}
+
+
+.projects-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+.projects-images-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    padding: 20px 0;
+}
+
+
+.project-item {
+    width: 33%; 
+    box-sizing: border-box; 
+    padding: 10px; 
+    text-align: center; 
+}
+
+
+.project-image {
+    border-radius: 10px;
+    width: 100%; 
+    height: auto; 
+    margin-bottom: 15px;
+}
+
+
+.project-description {
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #555;
+}
+
+
+@media (max-width: 768px) {
+    .project-item {
+        width: 100%; 
+        margin-bottom: 20px;
+    }
+}
+.projects-section {
+    background-color: #f9f9f9; 
+    padding: 50px 0;
+}
+
+
+.projects-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+.projects-images-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    padding: 20px 0;
+}
+
+
+.project-item {
+    width: 33%; 
+    box-sizing: border-box; 
+    padding: 10px; 
+    text-align: center; 
+}
+
+
+.project-image {
+    border-radius: 10px;
+    width: 100%; 
+    height: auto; 
+    margin-bottom: 15px;
+}
+
+
+.project-description {
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #555;
+}
+
+
+@media (max-width: 768px) {
+    .project-item {
+        width: 100%; 
+        margin-bottom: 20px;
+    }
+}
+
+        
+               
+        .navbar {
+            background-color: rgba(0, 30, 1, 0.9); 
+            padding: 10px 10px;
+            position: fixed; 
+            top: 0; 
+            left: 0;
+            width: 100%; 
+            height: 100px;
+            z-index: 1000; 
+        }
+
+        body {
+            padding-top: 70px; 
+        }
+
+        .navbar-brand {
+            color: white;
+            font-size: 24px;
+            font-weight: 700;
+            font-weight: bold;
+        }
+
+        .navbar-nav .nav-link {
+            color: white;
+            font-weight: 500;
+            padding: 15px 20px;
+        }
+
+        .navbar-nav .dropdown-menu {
+            background-color: #ffffff;
+            border: none;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        .navbar-nav .dropdown-item {
+            padding: 10px 20px;
+            color: #000;
+        }
+
+        .navbar-nav .dropdown-item:hover {
+            background-color: #3CB371;
+            color: white;
+        }
+
+        .btn_navbar {
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 25px;
+            padding: 10px 30px;
+            font-weight: 600;
+        }
+
+        .btn_navbar:hover {
+            background-color: #f3f6ed;
+            color: #539e53;
+        }
+        .lia {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('images/banner-bg2.jpg'); 
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 200px 20px; 
+            position: relative;
+        }
+
+        .lia h1 {
+            font-size: 3em;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: white;
+        }
+
+        .lia p {
+            font-size: 1.5em;
+            font-weight: 300;
+            color: #a9c5a9;
+        }
+
+        .navbarr {
+            display: flex;
+            align-items: center;
+            background-color: green;
+            padding: 10px 20px;
+        }
+
+        .navbarr img {
+            height: 40px;
+            margin-right: 20px;
+        }
+
+        .nav-items {
+            display: flex;
+            flex-grow: 1;
+            justify-content: space-around;
+        }
+
+        .nav-item {
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 15px;
+            position: relative;
+            animation: move 2s infinite;
+        }
+
+        
+
+        .nav-item:hover {
+            text-decoration: underline;
+            
+            -webkit-text-stroke-color: #63E6BE;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        .team-member {
+            margin: 20px;
+        }
+
+        .team-member img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            border: 4px solid #36b37e;
+            object-fit: cover;
+        }
+
+        .team-member h3 {
+            margin-top: 15px;
+            color: #333;
+        }
+.container h3:hover{
+    color: #2ECC71;
+}
+h1{
+    text-align: center;
+}
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <img src="images/about-icon.png">
+            <a class="navbar-brand" href="#">Echofy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Home
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="homeDropdown">
+                            <li><a class="dropdown-item" href="index.html">HOME 1</a></li>
+                            <li><a class="dropdown-item" href="#">HOME 2</a></li>
+                            <li><a class="dropdown-item" href="#">HOME 3</a></li>
+                            <li><a class="dropdown-item" href="#">HOME 4</a></li>
+                            <li><a class="dropdown-item" href="#">HOME 5</a></li>
+                            <li><a class="dropdown-item" href="#">HOME 6</a></li>
+                            <li><a class="dropdown-item" href="#">HOME 7</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="serviceDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Testimonials
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="serviceDropdown">
+                            <li><a class="dropdown-item" href="testimonial.html">Service 1</a></li>
+                            <li><a class="dropdown-item" href="#">Service 2</a></li>
+                            <li><a class="dropdown-item" href="#">Service 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="serviceDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Service
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="serviceDropdown">
+                            <li><a class="dropdown-item" href="our services.html">Service 1</a></li>
+                            <li><a class="dropdown-item" href="#">Service 2</a></li>
+                            <li><a class="dropdown-item" href="#">Service 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact us.html">Contact</a>
+                    </li>
+                  
+                    
+                </ul>
+                <a href="#" class="btn_navbar ms-lg-3">Get A Quote</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="lia">
+        <h1>About Us</h1>
+        <p>Natural Environment</p>
+    </div>
+
+    <nav class="navbarr">
+        <div class="nav-items">
+            <a href="#" class="nav-item"><i class="fa-solid fa-leaf" style="color: #63E6BE;"></i> Environmental</a>
+            <a href="#" class="nav-item"><i class="fa-solid fa-leaf" style="color: #63E6BE;"></i> Ocean Cleaning</a>
+            <a href="#" class="nav-item"><i class="fa-solid fa-leaf" style="color: #63E6BE;"></i> Renewable Energy</a>
+        </div>
+    </nav>
+    
+    <br>
+    <br>
+
+<h1>Meet Our Dedicated Members</h1>
+    
+<div class="container">
+    <div class="team-member">
+        <img src="images/team-thumb3.png" alt="Team Member 1">
+        <h3>Esha Shahid</h3>
+    </div>
+
+    <div class="team-member">
+        <img src="images/team-thumb2.png" alt="Team Member 2">
+        <h3>Ashhad Shahid</h3>
+    </div>
+
+    <div class="team-member">
+        <img src="images/team-thumb.png" alt="Team Member 3">
+        <h3>Sara Shahid</h3>
+    </div>
+</div>
+<br>
+<div class="container-fluid projects-section">
+    <div class="container">
+        <!-- Centered Text Section -->
+        <div class="text-center">
+            <div class="contact-us">
+                <img src="images/sub-title-shape.png" alt="Project Icon" style="width: 24px; margin-right: 8px;">
+                OUR PROJECTS
+            </div>
+            <h1>Finished the Latest Leading Environmental Works</h1>
+        </div>
+
+       
+
+<div class="projects-images-container">
+    <!-- First Row of Images -->
+    <div class="project-item">
+        <img src="images/blog-thumb1.jpg" class="project-image" alt="Project 1">
+        <div class="project-description">Recycling Initiative</div>
+    </div>
+    <div class="project-item">
+        <img src="images/blog-thumb2.jpg" class="project-image" alt="Project 2">
+        <div class="project-description">Beach Cleanup</div>
+    </div>
+    <div class="project-item">
+        <img src="images/blog-thumb3.jpg" class="project-image" alt="Project 3">
+        <div class="project-description">Planting Trees</div>
+    </div>
+
+    <!-- Second Row of Images -->
+    <div class="project-item">
+        <img src="images/project-img.png" class="project-image" alt="Project 4">
+        <div class="project-description">Renewable Energy</div>
+    </div>
+    <div class="project-item">
+        <img src="images/project-img2.png" class="project-image" alt="Project 5">
+        <div class="project-description">Water Conservation</div>
+    </div>
+    <div class="project-item">
+        <img src="images/project-img3.png" class="project-image" alt="Project 6">
+        <div class="project-description">Eco-Friendly Packaging</div>
+    </div>
+</div>
+</div>
+</div>
+<!-- Footer Section -->
+<footer style="background-color: #0c241a; padding: 40px 0; color: #fff;">
+    <div class="container">
+      <div class="row">
+        <!-- Company Info -->
+        <div class="col-md-4">
+          <h4 style="color: #fff;"><img src="images/about-icon.png" alt="EchoFy Logo" style="max-width: 30px; margin-right: 10px;">Echofy</h4>
+          <p>Proactively restore timely alignments after client environmentals</p>
+          <p>
+            <strong>Contact</strong><br>
+            <i class="fa fa-phone" style="color: #7ac142;"></i> +123 (4567) 890<br>
+            <i class="fa fa-envelope" style="color: #7ac142;"></i> example@gmail.com
+          </p>
+        </div>
+  
+        <!-- Company Links -->
+        <div class="col-md-2">
+          <h4 style="color: #fff;">Company</h4>
+          <ul style="list-style: none; padding: 0;">
+            <li><a href="#" style="color: #fff; text-decoration: none;">Home</a></li>
+            <li><a href="#" style="color: #fff; text-decoration: none;">About Us</a></li>
+            <li><a href="#" style="color: #fff; text-decoration: none;">Our Services</a></li>
+            <li><a href="#" style="color: #fff; text-decoration: none;">Meet Our Team</a></li>
+            <li><a href="#" style="color: #fff; text-decoration: none;">Latest Blog</a></li>
+          </ul>
+        </div>
+  
+        <!-- Quick Links -->
+        <div class="col-md-2">
+          <h4 style="color: #fff;">Quick Links</h4>
+          <ul style="list-style: none; padding: 0;">
+            <li><a href="#" style="color: #fff; text-decoration: none;">Testimonials</a></li>
+            <li><a href="#" style="color: #fff; text-decoration: none;">Contact Us</a></li>
+            <li><a href="#" style="color: #fff; text-decoration: none;">Donations</a></li>
+            <li><a href="#" style="color: #fff; text-decoration: none;">FAQ</a></li>
+            <li><a href="#" style="color: #fff; text-decoration: none;">Careers</a></li>
+          </ul>
+        </div>
+  
+        <!-- Newsletter -->
+        <div class="col-md-4">
+          <h4 style="color: #fff;">Newsletter</h4>
+          <p>Subscribe to our Newsletter</p>
+          <form>
+            <input type="email" placeholder="Enter E-Mail" style="width: 100%; padding: 10px; border: none; margin-bottom: 10px; border-radius: 4px;">
+            <button type="submit" style="width: 100%; background-color: #7ac142; color: #fff; padding: 10px; border: none; border-radius: 4px;">SUBSCRIBE NOW</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>  
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    
+    </html>
